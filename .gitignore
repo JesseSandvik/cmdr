@@ -1,8 +1,13 @@
 # Intellij
 .idea/
+sdk/.idea/
+sdk/*/.idea/
+tools/.idea/
+tools/*/.idea/
 
 # Maven
-target/
+sdk/*/target/
+tools/*/target/
 
 # Compiled class file
 *.class
