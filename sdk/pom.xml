@@ -16,6 +16,7 @@
 
     <modules>
         <module>cmdr</module>
+        <module>filesystem</module>
         <module>gherkin</module>
     </modules>
 
