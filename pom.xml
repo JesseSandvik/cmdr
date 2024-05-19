@@ -11,6 +11,9 @@
 
     <modules>
         <module>sdk</module>
+        <module>tools/parse</module>
+        <module>tools/email</module>
+        <module>sdk/cmdr</module>
     </modules>
 
 </project>
