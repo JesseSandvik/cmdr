@@ -15,7 +15,7 @@ public class Main {
         command.addPositionalParameter(positionalParameter);
 
         Properties properties = new Properties();
-        properties.setProperty("executableFilePath", "src/test/resources/echo");
+        properties.setProperty("executableFilePath", "sdk/cmdr/src/test/resources/echo");
         command.setProperties(properties);
 
         int exitCode = command.call();

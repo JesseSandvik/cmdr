@@ -1,6 +1,7 @@
 package com.sp3.cmdr;
 
 import com.sp3.cmdr.properties.PropertyKeys;
+import com.sp3.filesystem.file.FileExecutor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +33,7 @@ public class ExecutorCommand extends Command {
             });
         }
 
-        System.out.println(command);
-        return 0;
+        FileExecutor fileExecutor = new FileExecutor();
+        return fileExecutor.executeCommand(command);
     }
 }
